@@ -42,8 +42,8 @@ public class Visitor {
         this.money -= amount;
     }
 
-//    public void giveReview(ThemePark themePark, IReviewed attraction, int score){
-//        themePark.upDateAttractionRating(attraction, score);
-//    }
+    public void giveRating(ThemePark themePark, String featureName, int score){
+        themePark.updateFeatureRating(featureName, score);
+    }
 
 }

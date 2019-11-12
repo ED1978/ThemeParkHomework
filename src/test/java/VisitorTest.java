@@ -2,6 +2,7 @@ import attractions.Dogems;
 import org.junit.Before;
 import org.junit.Test;
 import people.Visitor;
+import themeParkStuff.ThemePark;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,11 +10,13 @@ public class VisitorTest {
 
     Visitor visitor;
     Dogems dogems;
+    ThemePark themePark;
 
     @Before
     public void before(){
         visitor = new Visitor("Bert", 21, 140, 100.00);
         dogems = new Dogems();
+        themePark = new ThemePark("Louden Castle");
     }
 
     @Test
@@ -48,9 +51,9 @@ public class VisitorTest {
         assertEquals(99.00, visitor.getMoney(), 0.01);
     }
 
-//    @Test
-//    public void canGiveScore() {
-//        visitor.giveReview(dogems, 3);
-//        assertEquals(3, dogems.getRating());
-//    }
+    @Test
+    public void canGiveScore() {
+        visitor.giveRating(themePark , "Dogems", 6);
+        assertEquals(6, themePark.getDogemsRating());
+    }
 }

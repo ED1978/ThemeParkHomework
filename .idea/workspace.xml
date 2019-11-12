@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9744520f-6af3-4609-9141-e78f712f0563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stallStuff/CandyFlossStall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stallStuff/FagStall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stallStuff/IceCreamStall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stallStuff/Stall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stallStuff/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CandyFlossStallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FagStallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/IceCreamStallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ITicketed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stalls/Stall.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in ThemePark">
+  <component name="RunManager" selected="JUnit.VisitorTest">
     <configuration name="All in ThemePark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +73,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VisitorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.All in ThemePark" />
         <item itemvalue="JUnit.DogemsTest" />
       </list>

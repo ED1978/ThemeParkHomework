@@ -28,6 +28,11 @@ public class DogemsTest {
     }
 
     @Test
+    public void hasTicketPrice() {
+        assertEquals(4.50, dogems.getTicketPrice(), 0.01);
+    }
+
+    @Test
     public void canSetRating() {
         dogems.setRating(2);
         assertEquals(2, dogems.getRating());

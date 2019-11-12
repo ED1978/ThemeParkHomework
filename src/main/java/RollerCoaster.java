@@ -1,7 +1,7 @@
-public class RollerCoaster extends Attraction implements  ISecurity{
+public class RollerCoaster extends Attraction implements  ISecurity, ITicketed{
 
     public RollerCoaster(){
-        super("Rollercoaster");
+        super("Rollercoaster", 8.40);
     }
 
     public Boolean isAllowed(Visitor visitor){
@@ -13,4 +13,15 @@ public class RollerCoaster extends Attraction implements  ISecurity{
     }
 
 
+    public Double defaultPrice() {
+        return getTicketPrice();
+    }
+
+    public Double priceFor(Visitor visitor) {
+        Double priceForVisitor = defaultPrice();
+        if(visitor.getHeight() > 200){
+            priceForVisitor *= 2;
+        }
+        return priceForVisitor;
+    }
 }

@@ -1,7 +1,7 @@
 public class Park extends Attraction {
 
     public Park(){
-        super("Park");
+        super("Park", 0.00);
     }
 
 }

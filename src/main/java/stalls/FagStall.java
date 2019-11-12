@@ -6,7 +6,7 @@ import people.Visitor;
 public class FagStall extends Stall implements ISecurity {
 
     public FagStall(String ownerName){
-        super("Fag stalls.Stall", ownerName);
+        super("Fag Stall", ownerName);
     }
 
     public Boolean isAllowed(Visitor visitor){

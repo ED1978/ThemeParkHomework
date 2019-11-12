@@ -32,12 +32,17 @@ public abstract class Attraction implements IReviewed {
         return this.ticketPrice;
     }
 
-    public void setRating(int rating){
+    public Void setRating(int rating){
         this.rating = rating;
+        return null;
     }
 
     public void addVisit(){
         this.visitCount += 1;
+    }
+
+    public void updateRating(int score){
+        this.rating = score;
     }
 
 }

@@ -6,4 +6,5 @@ public interface IReviewed {
 
     public String getName();
 
+    public Void setRating(int rating);
 }

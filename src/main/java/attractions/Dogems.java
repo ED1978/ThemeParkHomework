@@ -8,7 +8,8 @@ import people.Visitor;
 public class Dogems extends Attraction implements ITicketed {
 
     public Dogems(){
-        super("attractions.Dogems", 4.50);
+        super("Dogems", 4.80);
+
     }
 
     public Double defaultPrice() {

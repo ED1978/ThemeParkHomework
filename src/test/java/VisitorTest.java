@@ -1,3 +1,4 @@
+import attractions.Dogems;
 import org.junit.Before;
 import org.junit.Test;
 import people.Visitor;
@@ -7,10 +8,12 @@ import static org.junit.Assert.assertEquals;
 public class VisitorTest {
 
     Visitor visitor;
+    Dogems dogems;
 
     @Before
     public void before(){
         visitor = new Visitor("Bert", 21, 140, 100.00);
+        dogems = new Dogems();
     }
 
     @Test
@@ -44,4 +47,10 @@ public class VisitorTest {
         visitor.decreaseMoney(1.00);
         assertEquals(99.00, visitor.getMoney(), 0.01);
     }
+
+//    @Test
+//    public void canGiveScore() {
+//        visitor.giveReview(dogems, 3);
+//        assertEquals(3, dogems.getRating());
+//    }
 }

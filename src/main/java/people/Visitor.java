@@ -1,5 +1,9 @@
 package people;
 
+import attractions.Attraction;
+import behaviours.IReviewed;
+import themeParkStuff.ThemePark;
+
 public class Visitor {
 
     private String name;
@@ -37,5 +41,9 @@ public class Visitor {
     public void decreaseMoney(Double amount){
         this.money -= amount;
     }
+
+//    public void giveReview(ThemePark themePark, IReviewed attraction, int score){
+//        themePark.upDateAttractionRating(attraction, score);
+//    }
 
 }

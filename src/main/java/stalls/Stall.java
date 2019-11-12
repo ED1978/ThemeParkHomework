@@ -35,8 +35,9 @@ public abstract class Stall implements IReviewed {
         return this.parkingSpace.size();
     }
 
-    public void setRating(int rating){
+    public Void setRating(int rating){
         this.rating = rating;
+        return null;
     }
 
     public void parkVehicle(Vehicle vehicle){

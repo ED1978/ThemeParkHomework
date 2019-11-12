@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9744520f-6af3-4609-9141-e78f712f0563" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/themeParkStuff/ThemePark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Dogems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Dogems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/IReviewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IReviewed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Attraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/Attraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Dogems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/Dogems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/attractions/Park.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/attractions/Park.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviours/IReviewed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviours/IReviewed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Visitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stalls/FagStall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stalls/FagStall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stalls/Stall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stalls/Stall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CandyFlossStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CandyFlossStallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DogemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DogemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FagStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FagStallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IceCreamStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IceCreamStallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ParkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ParkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayGroundTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlayGroundTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RollerCoasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RollerCoasterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VisitorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VisitorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in ThemePark">
+  <component name="RunManager" selected="JUnit.ThemeParkTest">
     <configuration name="All in ThemePark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,6 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThemeParkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,9 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThemeParkTest" />
+        <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.All in ThemePark" />
         <item itemvalue="JUnit.DogemsTest.canGetRating" />
-        <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.DogemsTest" />
       </list>
     </recent_temporary>

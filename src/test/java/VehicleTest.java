@@ -1,5 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
+import vehicles.Vehicle;
 
 import static org.junit.Assert.assertEquals;
 

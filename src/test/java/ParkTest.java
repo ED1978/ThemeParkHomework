@@ -1,3 +1,4 @@
+import attractions.Park;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +15,7 @@ public class ParkTest {
 
     @Test
     public void canGetName() {
-        assertEquals("Park", park.getName());
+        assertEquals("attractions.Park", park.getName());
     }
 
     @Test

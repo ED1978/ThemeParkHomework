@@ -1,5 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
+import people.Visitor;
+import stalls.FagStall;
+import vehicles.Vehicle;
 
 import static org.junit.Assert.assertEquals;
 
@@ -20,7 +23,7 @@ public class FagStallTest {
 
     @Test
     public void hasName() {
-        assertEquals("Fag Stall", fagStall.getName());
+        assertEquals("Fag stalls.Stall", fagStall.getName());
     }
 
     @Test

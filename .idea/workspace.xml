@@ -3,20 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="9744520f-6af3-4609-9141-e78f712f0563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dogems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dogems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Park.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayGround.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dogems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Dogems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FagStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FagStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IReviewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/IReviewed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ISecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ITicketed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ITicketed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayGround.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/PlayGround.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DogemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DogemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FagStallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FagStallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayGroundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayGroundTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RollerCoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RollerCoasterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Attraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Attraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Dogems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dogems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Park.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Park.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PlayGround.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlayGround.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RollerCoaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RollerCoaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Attraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dogems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FagStall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FagStall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/IReviewed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ISecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ITicketed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Park.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlayGround.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RollerCoaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Stall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Stall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Visitor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/DogemsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DogemsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FagStallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FagStallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ParkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ParkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayGroundTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlayGroundTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RollerCoasterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RollerCoasterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/VisitorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VisitorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

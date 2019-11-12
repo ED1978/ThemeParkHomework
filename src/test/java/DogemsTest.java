@@ -1,3 +1,4 @@
+import attractions.Dogems;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +15,7 @@ public class DogemsTest {
 
     @Test
     public void canGetName() {
-        assertEquals("Dogems", dogems.getName());
+        assertEquals("attractions.Dogems", dogems.getName());
     }
 
     @Test

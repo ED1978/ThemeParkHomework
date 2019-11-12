@@ -21,6 +21,8 @@ public class ThemePark {
     private Stall fagStall;
     private Stall iceCreamStall;
     private ArrayList<IReviewed> parkFeatures;
+    private ArrayList<IReviewed> reviewedFeatures;
+
 
     public ThemePark(String name){
         this.name = name;
@@ -32,6 +34,7 @@ public class ThemePark {
         this.fagStall = new FagStall("Mavis");
         this.iceCreamStall = new IceCreamStall("Sheena");
         this.parkFeatures = new ArrayList<IReviewed>();
+        this.reviewedFeatures = new ArrayList<IReviewed>();
         this.parkFeatures.add(dogems);
         this.parkFeatures.add(park);
         this.parkFeatures.add(rollerCoaster);
@@ -41,8 +44,12 @@ public class ThemePark {
         this.parkFeatures.add(iceCreamStall);
     }
 
-    public int getAttractionsLength(){
+    public int getFeaturesLength(){
         return this.parkFeatures.size();
+    }
+
+    public int getReviewedFeaturesLength(){
+        return this.reviewedFeatures.size();
     }
 
     public int getDogemsRating(){
@@ -54,6 +61,14 @@ public class ThemePark {
         for ( IReviewed feature : parkFeatures){
             if (featureName == feature.getName()){
                 feature.setRating(rating);
+            }
+        }
+    }
+
+    public void populateReviewedFeatures(){
+        for (IReviewed feature : parkFeatures){
+            if(feature.getRating() != 0){
+                this.reviewedFeatures.add(feature);
             }
         }
     }

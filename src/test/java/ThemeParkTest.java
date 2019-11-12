@@ -24,7 +24,7 @@ public class ThemeParkTest {
 
     @Test
     public void hasFeatures() {
-        assertEquals(7, themePark.getAttractionsLength());
+        assertEquals(7, themePark.getFeaturesLength());
     }
 
     @Test
@@ -33,5 +33,11 @@ public class ThemeParkTest {
         assertEquals(2, themePark.getDogemsRating());
     }
 
-
+    @Test
+    public void canPopulateReviewedFeaturesArray() {
+        themePark.updateFeatureRating("Dogems", 6);
+        themePark.updateFeatureRating("Park", 5);
+        themePark.populateReviewedFeatures();
+        assertEquals(2, themePark.getReviewedFeaturesLength());
+    }
 }

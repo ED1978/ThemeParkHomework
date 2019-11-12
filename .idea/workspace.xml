@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9744520f-6af3-4609-9141-e78f712f0563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Visitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/themeParkStuff/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/themeParkStuff/ThemePark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VisitorTest">
+  <component name="RunManager" selected="JUnit.ThemeParkTest">
     <configuration name="All in ThemePark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.ThemeParkTest" />
+        <item itemvalue="JUnit.VisitorTest" />
         <item itemvalue="JUnit.All in ThemePark" />
         <item itemvalue="JUnit.DogemsTest.canGetRating" />
         <item itemvalue="JUnit.DogemsTest" />

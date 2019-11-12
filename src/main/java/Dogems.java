@@ -1,7 +1,7 @@
 public class Dogems extends Attraction {
 
-    public Dogems(int rating){
-        super("Dogems", rating);
+    public Dogems(){
+        super("Dogems");
     }
 
 }

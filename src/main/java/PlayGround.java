@@ -1,7 +1,7 @@
 public class PlayGround extends Attraction implements ISecurity {
 
-    public PlayGround(int rating){
-        super("Playground", rating);
+    public PlayGround(){
+        super("Playground");
     }
 
     public Boolean isAllowed(Visitor visitor){

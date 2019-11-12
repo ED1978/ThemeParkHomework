@@ -9,7 +9,7 @@ public class DogemsTest {
 
     @Before
     public void before(){
-        dogems = new Dogems(3);
+        dogems = new Dogems();
     }
 
     @Test
@@ -19,7 +19,7 @@ public class DogemsTest {
 
     @Test
     public void canGetRating() {
-        assertEquals(3, dogems.getRating());
+        assertEquals(0, dogems.getRating());
     }
 
     @Test

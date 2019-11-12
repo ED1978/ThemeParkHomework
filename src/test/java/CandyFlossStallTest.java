@@ -11,7 +11,7 @@ public class CandyFlossStallTest {
 
     @Before
     public void before(){
-        candyFlossStall = new CandyFlossStall("Betty", 6);
+        candyFlossStall = new CandyFlossStall("Betty");
         vehicle = new Vehicle("Ford", "Transit");
     }
 
@@ -27,7 +27,7 @@ public class CandyFlossStallTest {
 
     @Test
     public void hasRating() {
-        assertEquals(6, candyFlossStall.getRating());
+        assertEquals(0, candyFlossStall.getRating());
     }
 
     @Test

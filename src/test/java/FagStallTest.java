@@ -12,7 +12,7 @@ public class FagStallTest {
 
     @Before
     public void before(){
-        fagStall = new FagStall("Doris", 11);
+        fagStall = new FagStall("Doris");
         vehicle = new Vehicle("Ford", "Transit");
         visitor1 = new Visitor("Mable", 18, 144,  20.00);
         visitor2 = new Visitor("Gertrude", 17, 146, 20.00);
@@ -30,7 +30,7 @@ public class FagStallTest {
 
     @Test
     public void hasRating() {
-        assertEquals(11, fagStall.getRating());
+        assertEquals(0, fagStall.getRating());
     }
 
     @Test

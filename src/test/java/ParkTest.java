@@ -9,7 +9,7 @@ public class ParkTest {
 
     @Before
     public void before(){
-        park = new Park(1);
+        park = new Park();
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ParkTest {
 
     @Test
     public void canGetRating() {
-        assertEquals(1, park.getRating());
+        assertEquals(0, park.getRating());
     }
 
     @Test

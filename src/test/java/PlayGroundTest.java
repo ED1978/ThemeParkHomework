@@ -11,7 +11,7 @@ public class PlayGroundTest {
 
     @Before
     public void before(){
-        playGround = new PlayGround((6));
+        playGround = new PlayGround();
         visitor1 = new Visitor("Mable", 15, 150, 20.00);
         visitor2 = new Visitor("Gertrude", 18, 150, 20.00);
     }
@@ -23,7 +23,7 @@ public class PlayGroundTest {
 
     @Test
     public void canGetRating() {
-        assertEquals(6, playGround.getRating());
+        assertEquals(0, playGround.getRating());
     }
 
     @Test

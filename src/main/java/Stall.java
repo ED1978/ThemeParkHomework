@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public abstract class Stall {
+public abstract class Stall implements IReviewed{
 
     private String name;
     private String ownerName;
     private int rating;
     private ArrayList<Vehicle> parkingSpace;
 
-    public Stall(String name, String ownerName, int rating){
+    public Stall(String name, String ownerName){
         this.name = name;
         this. ownerName = ownerName;
         this.rating = rating;

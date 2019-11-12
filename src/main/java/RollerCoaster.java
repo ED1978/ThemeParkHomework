@@ -1,7 +1,7 @@
 public class RollerCoaster extends Attraction implements  ISecurity{
 
-    public RollerCoaster(int rating){
-        super("Rollercoaster", rating);
+    public RollerCoaster(){
+        super("Rollercoaster");
     }
 
     public Boolean isAllowed(Visitor visitor){

@@ -1,7 +1,7 @@
 public class FagStall extends Stall implements ISecurity{
 
-    public FagStall(String ownerName, int rating){
-        super("Fag Stall", ownerName, rating);
+    public FagStall(String ownerName){
+        super("Fag Stall", ownerName);
     }
 
     public Boolean isAllowed(Visitor visitor){

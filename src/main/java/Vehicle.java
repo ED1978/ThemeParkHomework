@@ -1,5 +1,3 @@
-package stallStuff;
-
 public class Vehicle {
 
     private String make;

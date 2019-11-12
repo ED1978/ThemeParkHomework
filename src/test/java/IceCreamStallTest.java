@@ -1,7 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-import stallStuff.IceCreamStall;
-import stallStuff.Vehicle;
 
 import static org.junit.Assert.assertEquals;
 

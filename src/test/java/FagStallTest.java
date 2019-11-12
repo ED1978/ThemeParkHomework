@@ -1,7 +1,5 @@
 import org.junit.Before;
 import org.junit.Test;
-import stallStuff.FagStall;
-import stallStuff.Vehicle;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,11 +7,15 @@ public class FagStallTest {
 
     FagStall fagStall;
     Vehicle vehicle;
+    Visitor visitor1;
+    Visitor visitor2;
 
     @Before
     public void before(){
         fagStall = new FagStall("Doris", 11);
         vehicle = new Vehicle("Ford", "Transit");
+        visitor1 = new Visitor("Mable", 18, 144,  20.00);
+        visitor2 = new Visitor("Gertrude", 17, 146, 20.00);
     }
 
     @Test
@@ -50,4 +52,13 @@ public class FagStallTest {
         assertEquals(0, fagStall.getParkingSpaceCount());
     }
 
+    @Test
+    public void isAllowedTrue() {
+        assertEquals(true, fagStall.isAllowed(visitor1));
+    }
+
+    @Test
+    public void isAllowedFalse() {
+        assertEquals(false, fagStall.isAllowed(visitor2));
+    }
 }

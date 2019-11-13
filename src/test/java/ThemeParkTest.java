@@ -38,6 +38,15 @@ public class ThemeParkTest {
         themePark.updateFeatureRating("Dogems", 6);
         themePark.updateFeatureRating("Park", 5);
         themePark.populateReviewedFeatures();
+        themePark.updateFeatureRating("Park", 6);
+        themePark.populateReviewedFeatures();
         assertEquals(2, themePark.getReviewedFeaturesLength());
+    }
+
+    @Test
+    public void reviewedListPopulatesVisitorReview() {
+        visitor.giveRating(themePark, "Dogems", 5);
+        visitor.giveRating(themePark, "Dogems", 2);
+        assertEquals(1, themePark.getReviewedFeaturesLength());
     }
 }

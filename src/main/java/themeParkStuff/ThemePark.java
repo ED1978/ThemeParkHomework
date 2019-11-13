@@ -63,14 +63,17 @@ public class ThemePark {
                 feature.setRating(rating);
             }
         }
+        populateReviewedFeatures();
     }
 
     public void populateReviewedFeatures(){
+        this.reviewedFeatures.removeAll(reviewedFeatures);
         for (IReviewed feature : parkFeatures){
             if(feature.getRating() != 0){
                 this.reviewedFeatures.add(feature);
             }
         }
     }
+
 
 }
